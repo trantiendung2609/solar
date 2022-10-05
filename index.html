@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;500&family=Mukta+Mahee:wght@300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./asset/css/main.css" />
+  <link rel="stylesheet" href="./asset/font/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+  <link rel="stylesheet" href="./asset/css/responsive.css" />
+
+  <title>Home</title>
+</head>
+
+<body>
+  <div class="app">
+    <header>
+      <div class="row grid header_nav">
+        <div class="menu_all col-2 grid-lg-1 grid-sm-1 grid-xsm-5">
+          <div class="header__logo">
+            <img src="./asset/img/logo.png" alt="" />
+          </div>
+        </div>
+        <div class="menu_all col-8 grid-lg-9 grid-sm-8 grid-xsm-6">
+          <div class="header__menu">
+            <ul class="menu">
+              <li><a href="">Home</a></li>
+              <li>
+                <a href="">About</a><i class="fa-solid fa-angle-down"></i></i>
+                <ul class="submenu">
+                  <li><a href="">About Solar</a></li>
+                  <li><a href="">RoadMap</a></li>
+                  <li><a href="">WhitePaper</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">Apps</a><i class="fa-solid fa-angle-down"></i></i>
+                <ul class="submenu">
+                  <li><a href="">About Solar</a></li>
+                  <li><a href="">RoadMap</a></li>
+                  <li><a href="">WhitePaper</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">Blockchain</a><i class="fa-solid fa-angle-down"></i></i>
+                <ul class="submenu">
+                  <li><a href="">Staking</a></li>
+                  <li><a href="">RoadMap</a></li>
+                  <li><a href="">WhitePaper</a></li>
+                  <li><a href="">Swap Details</a></li>
+                </ul>
+              </li>
+              <li><a href="">Explorer</a></li>
+              <li><a href="">Community</a></li>
+            </ul>
+          </div>
+          <div class="header__menu-moblie">
+            <div class="menu-moblie" id="menu">
+              <span class="line-1-moblie"></span>
+              <span class="line-2-moblie"></span>
+              <span class="line-3-moblie"></span>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="menu_all col-2 grid-lg-2 grid-sm-2 ">
+          <div class="header__blog">
+            <button>Blog</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu__mobile container-fluid" id="menu__mobile">
+        <ul class="menu_moblie">
+          <li><span>Home</span></li>
+          <li><span class="menu_child" onclick="child(this,0)">About<i class="fa-solid fa-angle-down "></i></span> 
+            <ul class="submenu-moblie list_child" style="display: none;"> 
+              <li><a>About Solar</a></li>
+              <li><a>Roadmap</a></li>
+              <li><a>Whitepaper</a></li>
+              <li><a>Privacy Policy</a></li>
+            </ul>
+          </li>
+          <li><span class="menu_child" onclick="child(this,1)">Apps<i class="fa-solid fa-angle-down "></i></span>
+            <ul class="submenu-moblie list_child" style="display: none;">
+              <li><a>Desktop</a></li>
+              <li><a>Wallet</a></li>
+              <li><a>Desktop</a></li>
+              <li><a>Wallet</a></li>
+            </ul>
+          </li>
+          <li><span class="menu_child" onclick="child(this,2)">Blockchain<i class="fa-solid fa-angle-down"></i></span>
+            <ul class="submenu-moblie list_child" style="display: none;">
+              <li><a>Staking</a></li>
+              <li><a>Developer</a></li>
+              <li><a>Documentation</a></li>
+              <li><a>Swap Details</a></li>
+            </ul>
+          </li>
+          <li><span>Explorer</span></li>
+          <li><span>Community</span></li>
+        </ul>
+      </div>
+    </header>
+    <article>
+      <div class="thu">
+        <div class="row " id="row_set">
+          <div class="header__item">
+            <div class="header__item-img">
+              <img src="./asset/img/logo.png" alt="" />
+            </div>
+            <div class="header__item-title">
+              <h3>Sustainable, Innovative, and Decentralized</h3>
+            </div>
+            <div class="header__item-button">
+              <div class="header__item-button-dow">
+                <button>DOWNLOAD WALLET</button>
+              </div>
+              <div class="header__item-button-com">
+                <button>COMMUNITY</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="counter__wrapper">
+          <div class="row">
+            <div class="col-5">
+              <div class="counter__thumb">
+                <div class="counter__thumb-img">
+                  <img src="./asset/img/counter1.png" alt="" />
+                </div>
+                <div class="counter dele">
+                  <h1>53</h1>
+                  <p>Delegates</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-7">
+              <div class="counter__content">
+                <div class="counter__content-img">
+                  <img src="./asset/img/counter2.png" alt="" />
+                </div>
+                <div class="counter block">
+                  <h1>8</h1>
+                  <p>Seconds Blocktime</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="container">
+          <div class="container__article1">
+            <div class="col  grid-sm-12 grid-xsm-12">
+              <div class="container__article1-title">
+                <h1>Solar</h1>
+                <p>
+                  Solar is a fully decentralized and open-source blockchain
+                  designed from
+                  core blockchain components. It operates via a Delegated
+                  Proof of Stake
+                  consensus and secured by 53 voted-in delegates that produce
+                  blocks
+                  and validate transactions.
+                </p>
+                <button>LEARN MORE</button>
+              </div>
+            </div>
+            <div class="col none_res">
+              <div class="container__article1-img">
+                <img src="./asset/img/colum1.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container__article2">
+          <div class="container__article2-img-1 ">
+            <img src="./asset/img/colum3.jpg" alt="" />
+          </div>
+          <div class="container__article2-img-2 none_res col-7">
+            <img src="./asset/img/colum2.png" alt="" />
+          </div>
+          <div class="container__article2-title col-5 ">
+            <h5>Become a delegate or a voter</h5>
+            <h2>Participate</h2>
+            <p>Having the right forging delegate is important for the network. Usuallyeach public delegate offers
+              share in rewards, sometimes in combinationwith additional contribution to the network or project. A
+              delegate cancontribute to the security of the network or contribute towards commarketing,
+              community product development, which could returnin term or long term a better value for the asset
+              and project.</p>
+            <button>LEARN MORE</button>
+          </div>
+        </div>
+        <div class="container">
+          <div class="container__recharge">
+            <div class="container__recharge-title col-6">
+              <div class="container__recharge-title-letter">
+                <h5>Features that will enhance your project</h5>
+                <h2>Build your own dApps</h2>
+                <p>With Solar you can create your own NFT's, dApps or fungible tokens.
+                  The Solar Blockchain provides the end-user with rich libraries and tools develop projects on the
+                  blockchain for many usecases.
+                  As an example, these tools will allow you to publish NFT's in the form of text, images, audio or
+                  video's on the blockchain using our SLP library.
+                  SLP stands for Side Ledger Protocol. A sidechain with custom transactions that also enables the
+                  user to create fungible tokens in a few simple clicks directly from within the wallet.
+                  All of these features are provided with documentation and easy to use Rest API's that can be
+                  implemented or integrated in other 3rd party tools and applications.</p>
+              </div>
+
+            </div>
+            <div class="container__recharge-img col-6">
+              <img src="./asset/img/recharge.png" alt="">
+            </div>
+          </div>
+          <div class="container__recharge-title-social">
+            <div class="container__recharge-title-icon-nfts icon_item">
+              <img src="./asset/img/recharge1.png" alt="">
+              <h5>NFT's</h5>
+            </div>
+            <div class="container__recharge-title-icon-dapps icon_item">
+              <img src="./asset/img/recharge2.png" alt="">
+              <h5>DApps</h5>
+            </div>
+            <div class="container__recharge-title-icon-tokens icon_item">
+              <img src="./asset/img/recharge3.png" alt="">
+              <h5>Tokens</h5>
+            </div>
+            <div class="container__recharge-title-icon-games icon_item">
+              <img src="./asset/img/recharge4.png" alt="">
+              <h5>Games</h5>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="container__trial">
+            <div class="container__trial-social">
+              <img src="" alt="">
+              <h3>Trade SXP on these exchanges!</h3>
+              <div class="row brand_items">
+                <div class="brand_item"> <img src="./asset/img/row1.webp" alt="" width="150px" height="100px"></div>
+                <div class="brand_item"><img src="./asset/img/row2.png" alt="" width="86px" height="27px"></div>
+                <div class="brand_item"><img src="./asset/img/row3.png" alt="" width="83px" height="19px"></div>
+                <div class="brand_item"> <img src="./asset/img/row4.png" alt="" width="114px" height="26px"></div>
+                <div class="brand_item"> <img src="./asset/img/row5.png" alt="" width="137px" height="38px"></div>
+                <div class="brand_item"><img src="./asset/img/row6.png" alt="" width="93px" height="23px"></div>
+                <div class="brand_item"> <img src="./asset/img/row7.png" alt="" width="102px" height="30px"></div>
+              </div>
+            </div>
+            <div class="container__trial-button">
+              <div class="container__trial-button-left">
+                <button>COINMARKETCAP</button>
+              </div>
+              <div class="container__trial-button-right">
+                <button>COINGECKO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container__list-item container">
+          <h2>Ready to get started?</h2>
+          <p>Download the wallet for your operating system. All of our software is open source and the code can be
+            viewed in our <a href="">Github.</a></p>
+
+          <div class="container__list-item-top container">
+            <div class="container__list-item-top-windows download_item">
+              <img src="./asset/img/windows.png" alt="">
+              <h5>Windows</h5>
+              <p>Download(.exe)</p>
+            </div>
+            <div class="container__list-item-top-macos download_item">
+              <img src="./asset/img/macos.png" alt="">
+              <h5>MacOS
+                X64</h5>
+              <p>Download(.dmg)</p>
+            </div>
+            <div class="container__list-item-top-apple download_item">
+              <img src="./asset/img/macos.png" alt="">
+              <h5>Apple
+                Silicon</h5>
+              <p>Download(.dmg)</p>
+            </div>
+            <div class="container__list-item-top-linux download_item">
+              <img src="./asset/img/linux.png" alt="">
+              <h5>Linux</h5>
+              <p>Download(.deb)</p>
+            </div>
+            <div class="container__list-item-bottom download_item">
+              <img src="./asset/img/github.png" alt="">
+              <h5>Source</h5>
+              <p>Download(.deb)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="footer__section">
+        <div class="footer-img">
+          <img src="./asset/img/footer-bg.png" alt="">
+        </div>
+        <div class="container">
+          <div class="footer_flex">
+            <div class="footer__box">
+              <div class="header__logo footer_logo">
+                <img src="./asset/img/logo.png" alt="">
+              </div>
+              <div class="footer__social container">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-telegram"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="footer_menu container">
+                <li><a href="">About</a></li>
+                <span class="line_heigh"></span>
+                <li><a href="">Roadmap</a></li>
+                <span class="line_heigh"></span>
+                <li><a href="">Whitepaper</a></li>
+                <span class="line_heigh"></span>
+                <li><a href="">Privacy Policy</a></li>
+              </div>
+              <p>Copyright © 2021-2022. All Rights Reserved By Solar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./asset/js/app.js"></script>
+</body>
+
+</html>
